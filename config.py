@@ -1,6 +1,6 @@
 import os
 
-token = "5242691084:AAFF0TyQbbGNyq7yTYuWmAbsNQ8PNSoQ80o"
+token = ""
 days = ['Понеділок', 'Вівторок', 'Середа', 'Четвер', 'П\'ятниця']
-lstgrps = [f.name for f in os.scandir('groups') if f.is_dir() ]
+lstgrps = [f.name for f in os.scandir('groups') if f.is_dir() ]#getting list of groups
 groups = {}
